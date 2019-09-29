@@ -4,7 +4,10 @@
   "description": "",
   "author": "mrbbrlo",
   "license": "MIT",
-  "repository": "mrbbrlo/react-library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrbbrlo/g-react-library.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",

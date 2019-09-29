@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-library'
+import H1 from 'react-library'
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <H1 color="lightcoral" text="Modern React component module" />
       </div>
     )
   }
