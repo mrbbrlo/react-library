@@ -3,3 +3,59 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.btn {
+  outline: 0;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  cursor: pointer;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  user-select: none;
+}
+.btn-primary {
+  background: #197c71;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: cadetblue;
+}
+
+.btn-danger {
+  background: #cc3524;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background: lightcoral;
+}
+
+.btn-sm {
+  font-size: 12px;
+  padding: 0 10px;
+  height: 34px;
+  line-height: 32px;
+}
+
+.btn-md {
+  padding: 0 15px;
+  height: 42px;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.btn-lg {
+  font-size: 16px;
+  padding: 0 20px;
+  height: 46px;
+  line-height: 44px;
+}
+
+.btn i {
+  vertical-align: middle;
+  margin-right: 4px;
+}
