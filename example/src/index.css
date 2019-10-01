@@ -1,7 +1,47 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   font-family: sans-serif;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.navbar-light {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.navbar-light p,
+.navbar-light a {
+  color: #000;
+}
+
+.input {
+  border: 1px solid #197c71;
+  border-radius: 4px;
+  color: #000;
+  transition: border 0.2s ease;
+  font-size: 14px;
+}
+
+.input-md {
+  padding: 0 15px;
+  height: 42px;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.input-lg {
+  font-size: 16px;
+  padding: 0 20px;
+  height: 46px;
+  line-height: 44px;
 }
 
 .btn {

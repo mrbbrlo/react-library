@@ -1,16 +1,13 @@
 import React from 'react'
-// import './button.scss'
 import classNames from 'classnames'
 
 const Button = ({
-  type,
+  ...rest,
   className = '',
   variant,
   size,
-  style,
   icon,
   label,
-  disabled,
   onClick
 }) => {
   const classes = classNames(
@@ -23,10 +20,8 @@ const Button = ({
 
   return (
     <button
-      type={type}
+      {...rest}
       className={classes}
-      style={style}
-      disabled={disabled}
       onClick={e => onClick(e)}
     >
       {icon && <i className={icon}></i>} {label}

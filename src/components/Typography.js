@@ -1,5 +1,5 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
+import PropTypes from 'prop-types'
 
 const H1 = ({ text, color }) => {
   return <h1 style={{ color }}>{text}</h1>
@@ -7,7 +7,7 @@ const H1 = ({ text, color }) => {
 
 export { H1 }
 
-// static propTypes = {
-//   text: PropTypes.string,
-//   color: PropTypes.string
-// }
+H1.propTypes = {
+  text: PropTypes.string,
+  color: PropTypes.string
+}
