@@ -9,6 +9,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-library": "file:..",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "^1.1.4"
   },
   "scripts": {

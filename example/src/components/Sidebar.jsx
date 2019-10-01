@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
     return (
@@ -9,35 +10,35 @@ const Sidebar = () => {
                     <p className="logo-label">mrbbrlo library</p>
                 </div>
                 <ul className="nav">
-                    <li className="nav-item active">
-                        <a href="#empty" className="nav-link">
+                    <li className="nav-item">
+                        <NavLink to="/" exact className="nav-link">
                             <i className="tim-icons icon-chart-pie-36"></i>
                             <p>Dashboard</p>
-                        </a>
+                        </NavLink>
                     </li>
                     <li className="nav-item">
-                        <a href="#empty" className="nav-link">
+                        <NavLink to="/buttons" className="nav-link">
+                            <i className="tim-icons icon-puzzle-10"></i>
+                            <p>Buttons</p>
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink to="/cards" className="nav-link">
                             <i className="tim-icons icon-atom"></i>
+                            <p>Cards</p>
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink to="/qwe" className="nav-link">
+                            <i className="tim-icons icon-align-center"></i>
+                            <p>Item 1</p>
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink to="/esa" className="nav-link">
+                            <i className="tim-icons icon-align-center"></i>
                             <p>Item 2</p>
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#empty" className="nav-link">
-                            <i className="tim-icons icon-atom"></i>
-                            <p>Item 3</p>
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#empty" className="nav-link">
-                            <i className="tim-icons icon-atom"></i>
-                            <p>Item 4</p>
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#empty" className="nav-link">
-                            <i className="tim-icons icon-atom"></i>
-                            <p>Item 5</p>
-                        </a>
+                        </NavLink>
                     </li>
                 </ul>
             </div>

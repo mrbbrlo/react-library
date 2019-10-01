@@ -6,7 +6,7 @@
     margin-bottom: 30px;
     box-shadow: $box-shadow;
     border-radius: .2857rem;
-    height: 200px;
+    min-height: 200px;
 
     &-header {
         border-radius: .2232rem .2232rem 0 0;
@@ -19,7 +19,6 @@
 
     &__category {
         font-size: .75rem;
-        text-transform: capitalize;
         font-weight: 300;
         color: #9a9a9a;
         margin-bottom: 5px;

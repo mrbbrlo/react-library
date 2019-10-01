@@ -1,4 +1,8 @@
 import React, { Component } from 'react'
+import { Route, Redirect, Switch } from 'react-router-dom'
+
+import Buttons from './views/Buttons'
+import Cards from './views/Cards'
 import Sidebar from './components/Sidebar'
 import './styles.css'
 
@@ -9,18 +13,14 @@ class Main extends Component {
 		return (
 			<React.Fragment>
 				<div className="wrapper">
-					<Sidebar></Sidebar>
+					<Sidebar />
 					<div className="wrapper-panel">
 						<div className="content">
-							<div className="card">
-								<div className="card-header">
-									<h5 className="card__category">Title Category</h5>
-									<h2 className="card__title">Title Main</h2>
-								</div>
-								<div className="card-body">
-
-								</div>
-							</div>
+							<Switch>
+								<Route path="/buttons" component={Buttons} />
+								<Route path="/cards" component={Cards} />
+								<Redirect to="/cards" />
+							</Switch>
 						</div>
 					</div>
 				</div>
