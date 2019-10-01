@@ -1,7 +1,7 @@
 {
   "name": "mrbbrlo-react-library",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Button, Input, Navbar and Heading components.",
   "author": "mrbbrlo",
   "license": "MIT",
   "repository": {
@@ -63,6 +63,7 @@
   ],
   "dependencies": {
     "classnames": "^2.2.6",
+    "gulp": "^4.0.2",
     "node-sass": "^4.12.0"
   }
 }

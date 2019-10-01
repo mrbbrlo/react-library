@@ -1,0 +1,32 @@
+/*
+ * Global styles
+ *
+ * Define global styles.
+ */
+
+
+html, body {
+	height: 100%;
+}
+
+body {
+	color: $base-font-color;
+	font-size: $base-font-size;
+	font-weight: $base-font-weight;
+	font-family: $base-font-family;
+	background-color: $base-bg-color;
+	line-height: $base-line-height;
+}
+
+
+/*
+ * Global Media Queries
+ *
+ * Define global media queries.
+ */
+
+
+// ...
+
+
+

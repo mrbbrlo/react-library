@@ -1,0 +1,101 @@
+/*
+ * Responsive breakpoints
+ */
+$screen-lg: 1200px;
+$screen-md: 992px;
+$screen-sm: 768px;
+$screen-xs: 576px;
+/*
+ * Font variables
+ */
+
+$base-font-size: 16px;
+$base-font-family: "Poppins", sans-serif, Arial, verdana;
+$base-font-color: #444;
+$base-bg-color: #fff;
+$base-line-height: 1.4;
+$base-line-height-px: 18px;
+$base-font-weight: 400;
+
+$line-height: 26px;
+$line-height-lg: 30px;
+
+$font-regular: $base-font-family;
+$font-medium: "Montserrat Medium";
+$font-semibold: "Montserrat SemiBold";
+$font-bold: "Montserrat Bold";
+
+/*
+ * Color variables
+ */
+
+$color-brand: #1d8cf8;
+$color-brand-hovered: lighten($color-brand, 5%);
+$color-brand-active: darken($color-brand, 10%);
+$color-black: #000;
+$color-gray-border: #F7F7F7;
+$color-gray-bg: #F1F1F9;
+$color-gray-text: #A9A9A9;
+$color-success: #3ECF8E;
+$color-danger: #EB6969;
+
+$card-black-background: #27293d;
+
+$box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
+
+$border-radius: 4px;
+
+/*
+ * Layout spacing
+ *
+ * Define layout spacing classes
+ * which are applied to fast spacer classes
+ * defined in '_spacer.less'
+ */
+$layout-xs: 5px;
+$layout-sm: 10px;
+$layout-md: 15px;
+$layout-lg: 20px;
+$layout-xl: 30px;
+
+$layout-space: 120px;
+$layout-space-sm: 70px;
+$layout-space-xs: 40px;
+
+
+/*
+ * Block variables
+ *
+ * Define block variables
+ */
+ // Logo
+$logo-width: 90px;
+$logo-height: 30px;
+
+
+// Header
+$header-height: 100px;
+$header-height-sm: 64px;
+
+// Hamburger
+$hamburger-width: 34px;
+$hamburger-height: 20px;
+
+// Modal window variables
+$modalZIndex: 9999999;
+$modal-content-slide-duration: 0.3s;
+
+// Font path variable
+$font-path: "../fonts";
+
+// ICON variables
+$icomoon-font-family: "icomoon";
+$icomoon-font-path: $font-path;
+
+$icon-search: "\e905";
+$icon-cancel: "\e906";
+$icon-arrow-right: "\e900";
+$icon-check: "\e901";
+$icon-person: "\e902";
+$icon-arrow-down: "\e903";
+$icon-arrow-left: "\e904";
