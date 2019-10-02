@@ -1,0 +1,26 @@
+.js {
+
+    & .main {
+        color: #e66ad2;
+
+        &-red {
+            color: #ff5858;
+        }
+    }
+
+    & .string {
+        color: #53d695;
+    }
+
+    & .component {
+        color: #37daff;
+    }
+
+    & .attr {
+        color: #ffb44e;
+    }
+
+    & .value {
+        color: #a7f76b;
+    }
+}

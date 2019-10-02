@@ -6,7 +6,7 @@
     margin-bottom: 30px;
     box-shadow: $box-shadow;
     border-radius: .2857rem;
-    min-height: 200px;
+    // min-height: 200px;
 
     &-header {
         border-radius: .2232rem .2232rem 0 0;
@@ -21,12 +21,28 @@
         font-size: .75rem;
         font-weight: 300;
         color: #9a9a9a;
-        margin-bottom: 5px;
     }
 
     &__title {
         color: #fff;
         font-size: 1.6875rem;
         font-weight: 100;
+    }
+
+    &__description {
+        font-weight: 200;
+        padding-bottom: 20px;
+    }
+
+    &-examples {
+        padding: 1.5rem;
+        border: .2rem solid $color-dark;
+    }
+
+    &-buttons-wrap {
+
+        & .btn {
+            margin-right: 10px;
+        }
     }
 }

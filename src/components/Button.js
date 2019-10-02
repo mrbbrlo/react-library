@@ -4,16 +4,14 @@ import classNames from 'classnames'
 const Button = ({
   ...rest,
   className = '',
-  variant,
-  size,
+  color,
   icon,
-  label,
+  children,
   onClick
 }) => {
   const classes = classNames(
     'btn',
-    `btn-${variant}`,
-    `btn-${size}`,
+    `btn-${color}`,
     {},
     className
   )
@@ -22,9 +20,9 @@ const Button = ({
     <button
       {...rest}
       className={classes}
-      onClick={e => onClick(e)}
+      onClick={e => onClick && onClick(e)}
     >
-      {icon && <i className={icon}></i>} {label}
+      {icon && <i className={icon}></i>} <span>{children}</span>
     </button>
   )
 }
@@ -32,6 +30,6 @@ const Button = ({
 export default Button
 
 Button.defaultProps = {
-  variant: 'primary',
-  size: 'md'
+  type: 'button',
+  color: 'brand',
 }
